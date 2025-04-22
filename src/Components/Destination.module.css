@@ -1,0 +1,114 @@
+/* Container */
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading */
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Carousel */
+.carousel {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.carouselWrapper {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Navigation Buttons */
+.navButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navButton:hover {
+  transform: scale(1.1);
+}
+
+/* Cards */
+.card {
+  width: 280px;
+  min-width: 200px;
+  max-width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  background: #fff;
+  padding: 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Card Image */
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .image {
+  transform: scale(1.1);
+}
+
+/* Card Title */
+.cardTitle {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .carouselWrapper {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    flex-direction: column;
+  }
+
+  .navButton {
+    display: none; /* Hide buttons on mobile */
+  }
+
+  .carouselWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 100%;
+  }
+}

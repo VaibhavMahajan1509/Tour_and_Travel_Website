@@ -1,0 +1,63 @@
+/* Full-screen carousel container */
+.carouselContainer {
+    width: 100%;
+    height: 70vh; /* Full viewport height */
+}
+
+/* Make carousel images fill the container */
+.carouselImage {
+    width: 100%;
+    height: 70vh; /* 70% of viewport height */
+    object-fit: cover; /* Ensures the image fills the container */
+}
+
+/* Transparent Navbar */
+.navbarTransparent {
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Navbar links white */
+.navLinks {
+    color: white !important;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navLinks:hover {
+    color: lightgray !important;
+}
+
+/* Navbar brand white */
+.navbrand {
+    color: white !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Make button stylish */
+.bookNowButton {
+    background-color: rgb(255, 94, 0);
+    border: 2px solid white;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.bookNowButton:hover {
+    background-color: rgba(236, 55, 19, 0.747);
+    color: black;
+}
+
+/* Make carousel caption text white */
+.carousel-caption h3,
+.carousel-caption p {
+    color: white !important;
+}

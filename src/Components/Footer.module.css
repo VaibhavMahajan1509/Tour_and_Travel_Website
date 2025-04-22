@@ -1,0 +1,45 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .footerSection {
+    flex: 1 1 200px;
+    margin: 2rem;
+    padding: 1rem;
+  }
+  
+  .footerHeading {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footerList {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+  }
+  
+  .footerList li {
+    cursor: pointer;
+  }
+  
+  .footerList li:hover {
+    text-decoration: underline;
+  }
+  .Footerline {
+    margin: 0 0;
+  }
+  .footerCopyright {
+    text-align: center;
+    background-color: black;
+    color: #ccc;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  

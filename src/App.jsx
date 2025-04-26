@@ -20,14 +20,6 @@ function App() {
       
       {/* Transparent Section with Background */}
       <TransparentSection />
-
-      {/* Dummy Scrollable Content to enable scrolling */}
-      <div style={{ height: '150vh', background: '#f5f5f5' }}>
-        <h2 style={{ textAlign: 'center', paddingTop: '100px' }}>
-          Scroll down to see the effect!
-        </h2>
-      </div>
-
       <Photogallery />
       <Footer />
     </>

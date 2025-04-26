@@ -5,8 +5,13 @@ const TransparentSection = () => {
   return (
     <div className={styles.transparentSection}>
       <div className={styles.overlay}>
-        <h1>Welcome to My Site</h1>
-        <p>This section scrolls over a beautiful background.</p>
+        <div className={styles.callToAction}>
+          <h1>Welcome to My Site</h1>
+          <p>This section scrolls over a beautiful background.</p>
+        </div>
+        <div className={styles.contactUs}>
+          <button className={styles.btn}>Contact Us!</button>
+        </div>
       </div>
     </div>
   );

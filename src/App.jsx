@@ -17,8 +17,6 @@ function App() {
       <Feature />
       <Destination />
       <PopularActivities />
-      
-      {/* Transparent Section with Background */}
       <TransparentSection />
       <Photogallery />
       <Footer />

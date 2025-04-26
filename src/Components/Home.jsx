@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./Home.module.css"; // ✅ Correct Import
 
 // Import images
-import image1 from "../assets/image1.jpg";
-import image2 from "../assets/image2.jpg";
+import image1 from "../assets/image1.jpeg";
+import image2 from "../assets/image2.jpeg";
 import image3 from "../assets/image3.avif";
 
 function Home() {
